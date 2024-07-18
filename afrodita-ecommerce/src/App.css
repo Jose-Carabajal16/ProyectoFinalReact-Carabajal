@@ -232,6 +232,18 @@
   cursor: pointer;
   border-radius: .5rem;
 }
+.boton-enviar{
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--clr-titulo);
+  border: 2px solid var(--clr-main);
+  color: var(--clr-gray);
+  cursor: pointer;
+  border-radius: .5rem;
+}
 .container-formulario {
   max-width: 600px;
   margin: 40px auto;
