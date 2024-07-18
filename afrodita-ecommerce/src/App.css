@@ -232,3 +232,63 @@
   cursor: pointer;
   border-radius: .5rem;
 }
+.container-formulario {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+.container-compra{
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+
+}
+
+.titulo-formulario {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.formulario input:focus {
+  border-color: var(--clr-titulo);
+  outline: none;
+}
+
+.enviar {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--clr-titulo);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.enviar:hover {
+  background-color: var(--clr-main);
+  color: #5E4A41;
+}
